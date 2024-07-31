@@ -17,10 +17,10 @@ public class Grid {
         for(int i = 0; i<=cells.size(); i++){
             cells.get(i).paint(g);
         }
-        
+
         for(int x = 10; x < 710; x +=35){
             for(int y=10; y<710; y+=35){
-                cell.paint(g);
+                
             } 
         }
     } 
